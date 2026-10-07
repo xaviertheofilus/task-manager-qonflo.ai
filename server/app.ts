@@ -1,7 +1,7 @@
 import express from "express";
 import { randomUUID } from "node:crypto";
-import { actors, priorities, statuses, type AuditLog, type Priority, type Status, type Task } from "../src/domain";
-import { getSupabase } from "./supabase";
+import { actors, priorities, statuses, type AuditLog, type Priority, type Status, type Task } from "../src/domain.ts";
+import { getSupabase } from "./supabase.ts";
 
 const app = express();
 app.use(express.json());
