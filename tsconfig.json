@@ -8,8 +8,7 @@
     "strict": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "types": ["node", "vite/client"]
+    "esModuleInterop": true
   },
   "include": ["src", "server", "api", "vite.config.ts", "playwright.config.ts", "e2e"]
 }
